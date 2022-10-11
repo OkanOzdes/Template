@@ -16,12 +16,12 @@ function myFunction() {
       header.classList.add("sticky");
       menu.classList.add("sticky-menu");
       logo.classList.add("sticky-logo");
-      sponsor.classList.add("sticky-sponsor");
+      sponsor.classList.add("sticky-sponsor"); 
   } else {
       header.classList.remove("sticky");
       menu.classList.remove("sticky-menu");  
       logo.classList.remove("sticky-logo");
-      sponsor.classList.remove("sticky-sponsor");
+      sponsor.classList.remove("sticky-sponsor"); 
   }
 }
 

@@ -5,8 +5,9 @@
 }
 
 .section1 {
-    height: 400px;
-    background-color: black;
-    color: aliceblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
