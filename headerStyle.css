@@ -291,6 +291,16 @@
     .menu-icon__line-left,  .menu-icon__line-right {
       width: 10px;
     }
+    .header-content {
+      width: 100%;
+      left: 65%;
+    }
+    .content h2 {
+      font-size: 30px;
+    } 
+    .content label {
+      font-size: 15px;
+    } 
     body.nav-active .menu-icon__line {
       transform: translateX(0px) rotate(-50deg);
     }
