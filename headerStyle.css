@@ -164,6 +164,10 @@
     box-shadow: none;
     overflow: hidden;
   }
+
+  body.nav-active .header-content {
+    position: absolute;
+  }
   
   body.nav-active .sticky-logo h3, body.nav-active .sticky-sponsor h3  {
     color: white;
@@ -211,6 +215,25 @@
     transition-delay: 0.9s;
   }
 
+  .header-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .header-content h2 {
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 3px;
+  }
+
+  .header-content label {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 100;
+  }
 
   @media only screen and (max-width: 600px) {
     .navbar {

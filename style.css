@@ -4,10 +4,23 @@
     box-sizing: border-box;
 }
 
-.section1 {
+.section {
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.footer-container {
+    height: 300px;
+    background-color: #1d1d1d;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.footer-container h2 {
+    color: white;
+}
