@@ -61,17 +61,18 @@
 }
 
 .logo {
-  float: none;
   position: absolute;
   left: 50%;
   top: 50px;
   transform: translate(-50%);
+  text-transform: uppercase;
 }
 
 .sponsor {
   position: absolute;
   right: 10%;
   top: 50px;
+  text-transform: uppercase;
 }
 
 .sticky {
