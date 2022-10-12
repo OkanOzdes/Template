@@ -14,12 +14,24 @@
     height: 100%;
 }
 
-.section {
+.section, .section2, .section3, .section4{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid black;
+}
+
+.section {
+    background-color: white;
+}
+.section2 {
+    background-color: #f0ebe5;
+}
+.section3 {
+    background-color: #f9f7f7;
+}
+.section4 {
     background-color: white;
 }
 
