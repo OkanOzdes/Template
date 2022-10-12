@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+.container {
+    position: absolute;
+    width: 100%;
+}
+
+.content-container {
+    width: 100%;
+    height: 100%;
+}
+
 .section {
     height: 100vh;
     display: flex;
@@ -13,6 +23,7 @@
 }
 
 .footer-container {
+    position: absolute;
     height: 300px;
     background-color: #1d1d1d;
     width: 100%;

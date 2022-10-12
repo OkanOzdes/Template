@@ -6,6 +6,7 @@ var header = document.getElementById("myHeader");
 var menu = document.getElementById("myMenu");
 var logo = document.getElementById("myLogo");
 var sponsor = document.getElementById("mySponsor");
+var headerContent = document.getElementById("hContent");
 
 // Get the offset position of the navbar
 var sticky = header.offsetTop;
@@ -17,11 +18,13 @@ function myFunction() {
       menu.classList.add("sticky-menu");
       logo.classList.add("sticky-logo");
       sponsor.classList.add("sticky-sponsor"); 
+      headerContent.classList.add("sticky-content");
   } else {
       header.classList.remove("sticky");
       menu.classList.remove("sticky-menu");  
       logo.classList.remove("sticky-logo");
       sponsor.classList.remove("sticky-sponsor"); 
+      headerContent.classList.add("sticky-content");
   }
 }
 
